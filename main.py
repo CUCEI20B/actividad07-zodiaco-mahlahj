@@ -1,32 +1,32 @@
-def Signos():
-        Mes = input("Mes de Nacimiento: " )
-        Dia = input("Dia de Nacimiento: " )
+def signos():
+        mes = int(input("mes de nacimiento: " ))
+        dia = int(input("dia de nacimiento: " ))
 
-        if ((int(Mes)==12 and int(Dia) >= 22)or(int(Mes)==1 and int(Dia)<= 19)):
-                signo_zodiacal = ("Capricornio")
-        elif ((int(Mes)==1 and int(Dia) >= 20)or(int(Mes)==2 and int(Dia)<= 17)):
-                signo_zodiacal = ("Acuario")
-        elif ((int(Mes)==2 and int(Dia) >= 18)or(int(Mes)==3 and int(Dia)<= 19)):
-                signo_zodiacal = ("Piscis")
-        elif ((int(Mes)==3 and int(Dia) >= 20)or(int(Mes)==4 and int(Dia)<= 19)):
-                signo_zodiacal = ("Aries")
-        elif ((int(Mes)==4 and int(Dia) >= 20)or(int(Mes)==5 and int(Dia)<= 20)):
-                signo_zodiacal = ("Tauro")
-        elif ((int(Mes)==5 and int(Dia) >= 21)or(int(Mes)==6 and int(Dia)<= 20)):
-                signo_zodiacal = ("Geminis")
-        elif ((int(Mes)==6 and int(Dia) >= 21)or(int(Mes)==7 and int(Dia)<= 22)):
-                signo_zodiacal = ("Cancer")
-        elif ((int(Mes)==7 and int(Dia) >= 23)or(int(Mes)==8 and int(Dia)<= 22)): 
-                signo_zodiacal = ("Leo")
-        elif ((int(Mes)==8 and int(Dia) >= 23)or(int(Mes)==9 and int(Dia)<= 22)): 
-                signo_zodiacal = ("Virgo")
-        elif ((int(Mes)==9 and int(Dia) >= 23)or(int(Mes)==10 and int(Dia)<= 22)):
-                signo_zodiacal = ("Libra")
-        elif ((int(Mes)==10 and int(Dia) >= 23)or(int(Mes)==11 and int(Dia)<= 21)): 
-                signo_zodiacal = ("Escorpio")
-        elif ((int(Mes)==11 and int(Dia) >= 22)or(int(Mes)==12 and int(Dia)<= 21)):
-                signo_zodiacal = ("Sagitario")
+        if ((int(mes)==12 and int(dia) >= 22)or(int(mes)==1 and int(dia)<= 19)):
+                signo_zodiacal = ("capricornio")
+        elif ((int(mes)==1 and int(dia) >= 20)or(int(mes)==2 and int(dia)<= 17)):
+                signo_zodiacal = ("acuario")
+        elif ((int(mes)==2 and int(dia) >= 18)or(int(mes)==3 and int(dia)<= 19)):
+                signo_zodiacal = ("piscis")
+        elif ((int(mes)==3 and int(dia) >= 20)or(int(mes)==4 and int(dia)<= 19)):
+                signo_zodiacal = ("aries")
+        elif ((int(mes)==4 and int(dia) >= 20)or(int(mes)==5 and int(dia)<= 20)):
+                signo_zodiacal = ("tauro")
+        elif ((int(mes)==5 and int(dia) >= 21)or(int(mes)==6 and int(dia)<= 20)):
+                signo_zodiacal = ("geminis")
+        elif ((int(mes)==6 and int(dia) >= 21)or(int(mes)==7 and int(dia)<= 22)):
+                signo_zodiacal = ("cancer")
+        elif ((int(mes)==7 and int(dia) >= 23)or(int(mes)==8 and int(dia)<= 22)): 
+                signo_zodiacal = ("leo")
+        elif ((int(mes)==8 and int(dia) >= 23)or(int(mes)==9 and int(dia)<= 22)): 
+                signo_zodiacal = ("virgo")
+        elif ((int(mes)==9 and int(dia) >= 23)or(int(mes)==10 and int(dia)<= 22)):
+                signo_zodiacal = ("libra")
+        elif ((int(mes)==10 and int(dia) >= 23)or(int(mes)==11 and int(dia)<= 21)): 
+                signo_zodiacal = ("escorpio")
+        elif ((int(mes)==11 and int(dia) >= 22)or(int(mes)==12 and int(dia)<= 21)):
+                signo_zodiacal = ("sagitario")
 
-        print("Tu signo es: " + signo_zodiacal)
+        print("tu signo es: " + signo_zodiacal)
         
-Signos()
+signos()
