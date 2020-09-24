@@ -1,10 +1,6 @@
 def Signos():
-        Año = input("Año de Nacimiento: " )
         Mes = input("Mes de Nacimiento: " )
         Dia = input("Dia de Nacimiento: " )
-        Año_de_Nacimiento = (Dia + "/" + Mes + "/" + Año)
-        
-        print("Tu fecha de Nacimiento es " + Año_de_Nacimiento)
 
         if ((int(Mes)==12 and int(Dia) >= 22)or(int(Mes)==1 and int(Dia)<= 19)):
                 signo_zodiacal = ("Capricornio")
