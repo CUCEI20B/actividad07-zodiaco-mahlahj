@@ -27,6 +27,6 @@ def signos():
         elif ((int(mes)==11 and int(dia) >= 22)or(int(mes)==12 and int(dia)<= 21)):
                 signo_zodiacal = ("sagitario")
 
-        print("tu signo es: " + signo_zodiacal)
+        print(signo_zodiacal)
         
 signos()
