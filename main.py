@@ -1,7 +1,7 @@
 def signos():
         mes = int(input())
         dia = int(input())
-
+        
         if ((int(mes)==12 and int(dia) >= 22) or (int(mes)==1 and int(dia)<= 19)):
                 signo_zodiacal = ("capricornio")
         elif ((int(mes)==1 and int(dia) >= 20) or (int(mes)==2 and int(dia)<= 17)):
