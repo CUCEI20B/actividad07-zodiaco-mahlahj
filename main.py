@@ -1,6 +1,6 @@
 def signos():
-        mes = int(input("mes de nacimiento: " ))
-        dia = int(input("dia de nacimiento: " ))
+        mes = int(input())
+        dia = int(input())
 
         if ((int(mes)==12 and int(dia) >= 22) or (int(mes)==1 and int(dia)<= 19)):
                 signo_zodiacal = ("capricornio")
