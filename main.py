@@ -1,6 +1,6 @@
 def signos():
-        mes = int(input())
         dia = int(input())
+        mes = int(input())
         
         if ((int(mes)==12 and int(dia) >= 22) or (int(mes)==1 and int(dia)<= 19)):
                 signo_zodiacal = ("capricornio")
@@ -22,9 +22,9 @@ def signos():
                 signo_zodiacal = ("virgo")
         elif ((int(mes)==9 and int(dia) >= 23) or (int(mes)==10 and int(dia)<= 22)):
                 signo_zodiacal = ("libra")
-        elif ((int(mes)==10 and int(dia) >= 22) or (int(mes)==11 and int(dia)<= 21)): 
+        elif ((int(mes)==12 and int(dia) >= 22) or (int(mes)==12 and int(dia)<= 21)): 
                 signo_zodiacal = ("sagitario")
-        elif ((int(mes)==11 and int(dia) >= 23) or (int(mes)==12 and int(dia)<= 21)):
+        elif ((int(mes)==10 and int(dia) >= 23) or (int(mes)==11 and int(dia)<= 21)):
                 signo_zodiacal = ("escorpio")
 
         print(signo_zodiacal)
